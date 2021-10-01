@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    /* background: url('https://pixabay.com/fr/videos/oc%C3%A9an-vagues-le-coucher-du-soleil-54081/') repeat-x bottom; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo img
+{
+    width: 59px;
+    height: 60px;
+}
+#Reseau Sociaux {
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+#video {
+    width: 100%;
+    
+}
