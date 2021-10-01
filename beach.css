@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.topbar {
+    height: 90px;
+    position: fixed;
+    background: rgb(253, 255, 118);
+    width: 100%;
+
+}
+
+.section_img {
+    height: 700px;
+    background: rgb(47, 235, 63);
+    width: 100%;
+   
+    
+}
+.section_surf {
+    height: 300px;
+    display: flex;
+    background: rgb(75, 219, 255);
+    width: 100%;
+}
+
+.section_surf div{
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section_surf img {
+    display: flex;
+    flex-direction: column;
+}
+
+.section_swim {
+    display: flex;
+    background: rgb(235, 164, 219);
+    width: 100%;
+}
+
+.div-txt {
+    max-width: 50%;
+}
+
+.div-img {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.div-img img {
+    width: 50%;
+
+}
+footer { 
+    height: 80px;
+    background: rgb(118, 255, 214);
+    width: 100%;
+    
+
+}
