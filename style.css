@@ -95,7 +95,7 @@ color: white;
     padding-right: 720px ;
 }
 
-#toto  {
+#titi  {
 
   color: whitesmoke;
 }
@@ -105,3 +105,18 @@ color: white;
   color: white;
 }
 
+.liensExternes  {
+
+  color:white;
+}
+#rappel {
+display: flex;
+justify-content:space-around ;
+flex-direction: column;
+}
+
+.liensExternes {
+display: block;
+padding-top: 25px;
+
+}
