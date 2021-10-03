@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+/* body{
+    background: url("video_btz/Islands.mp4"); */
+}
+
 header
 {
     /* background: url('https://pixabay.com/fr/videos/oc%C3%A9an-vagues-le-coucher-du-soleil-54081/') repeat-x bottom; */
@@ -36,12 +40,13 @@ header
 #Reseau Sociaux {
     display: flex;
     justify-content: flex-end;
+    position: fixed;
 }
 nav ul
 {
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     width: 100%;
     position: fixed;
 }
