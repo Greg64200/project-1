@@ -5,15 +5,36 @@ body {
     color: rgb(87, 85, 85);
     font-family: "Montserrat Alternates", sans-serif;
 }
+/* ---------------------SECTION VIDEO -----------------------------------*/
 .section_video{
 }
-
+/* --------------------SECTION ACTU------------------------------------------- */
 .section_actu{
+    display: flex;
+    padding: 20px;
 }
 
+.section_actu_img{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_actu img {
+    height: 500px;
+    width: 340px;
+}
+
+.section_actu p {
+    padding: 10px;
+    text-align: center;
+    
+}
+/* ----------------------SECTION MAP & NEWSLETTER----------------------------------- */
 .section_map_newsletter{
 }
-
+/* ------------------------SECTION QUIZZ------------------------------------------------- */
 .section_quizz{
 }
 
