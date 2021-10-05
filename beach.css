@@ -1,72 +1,88 @@
-* {
+body {
     padding: 0;
     margin: 0;
-    
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-
-.topbar {
-    height: 90px;
-    position: fixed;
-    background: rgb(253, 255, 118);
-    width: 100%;
-
+    font-size: 16px;
+    color: rgb(87, 85, 85);
+    font-family: "Montserrat Alternates", sans-serif;
 }
 
 .section_img {
-    height: 700px;
-    background: rgb(47, 235, 63);
-    width: 100%;
-   
-    
-}
-.section_surf {
-    height: 300px;
     display: flex;
-    background: rgb(75, 219, 255);
-    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;      
+    justify-content: space-around;
+
+}
+
+.section_img_picture  {
+    padding: 10px;
+      height: 350px;
+      width: 350px;
+}
+/*____********************SECTION SURF***********************_____*/
+
+.section_surf {
+    padding: 80px 25px 85px 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .section_surf div{
-    height: 30px;
-    display: flex;
-    flex-direction: column;
+    padding: 30px;
 }
 
-.section_surf img {
-    display: flex;
-    flex-direction: column;
-}
-
-.section_swim {
-    display: flex;
-    background: rgb(235, 164, 219);
-    width: 100%;
-}
-
-.div-txt {
-    max-width: 50%;
-}
-
-.div-img {
+.section_surf_img img {
     display: flex;
     flex-direction: row;
+    width: 50vw;
+    justify-content: center;
+    box-shadow: 12px 12px 2px 1px  rgb(194, 200, 202);
+    border-radius: 10px;
+}
+
+.section_surf_img img:hover{
+    -ms-transform: scale(0.9); /* IE 9 */
+    -webkit-transform: scale(0.9); /* Safari 3-8 */
+    transform: scale(0.9);
+    }
+/*____*********************SECTION SWIM*********************_____*/
+
+.section_swim {
+    padding: 100px 60px 100px 60px;
+    display: flex;
+    background:rgba(245, 238, 216, 0.904);
+    opacity: 0.9;    
+}
+
+.section_swim_img {
+    display: flex;
     width: 50%;
 }
 
-.div-img img {
+.section_swim_img img {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 400px;
+}
+
+.section_swim_txt  {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
     width: 50%;
+    
+}
+
+.section_swim_txt p {
+    background-color: wheat;
+    opacity: 0.9;
+    padding: 40px;
 
 }
+
+
 footer { 
     height: 80px;
     background: rgb(118, 255, 214);
-    width: 100%;
-    
-
 }
