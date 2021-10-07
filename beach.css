@@ -33,12 +33,8 @@ body {
     opacity: 1;
 
 } 
-/* @media only screen and (max-width : 580px) {
-    .section_img picture {
-        flex-direction: column;
-        width: 100vw;
-    }
-} */
+
+ 
 .section_img_picture:hover {
 
 }
@@ -364,3 +360,15 @@ body {
   
     list-style-position: inside;
   }
+
+
+/* -------------------------------------VERSION MOBILE------------------------------------------ */
+  @media only screen and (max-width : 780px) {
+
+  .section_img {
+    flex-direction: column;
+    width: 100vw;
+    
+  }
+        
+}
